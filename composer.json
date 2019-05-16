@@ -1,0 +1,31 @@
+{
+  "name": "xialeistudio/yii-minimal",
+  "description": "yii2 framework minimal application",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "xialeistudio",
+      "email": "xialeistudio@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": "~7.0.0",
+    "yiisoft/yii2": "~2.0.0",
+    "yiisoft/yii2-gii": "~2.1.0",
+    "ext-pdo": "*",
+    "yiisoft/yii2-bootstrap": "~2.0.0",
+    "ext-posix": "*",
+    "ext-pcntl": "*"
+  },
+  "require-dev": {
+    "eaglewu/swoole-ide-helper": "dev-master"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}
